@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="176px" height="182px" viewBox="0 0 176 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="trial" transform="translate(-32.000000, -29.000000)">
+            <g id="Group" transform="translate(32.000000, 29.000000)">
+                <polygon id="Rectangle-121" fill="#BCDEEF" transform="translate(88.971648, 159.789975) scale(-1, -1) translate(-88.971648, -159.789975) " points="16.2250286 175.227019 25.6358784 164.228208 91.557022 137.913043 101.001752 138.622762 136.814923 150.104236 146.132539 156.427121 164.710213 181.666907 13.2330827 181.666906"></polygon>
+                <polygon id="Triangle-177" fill="#AACBD3" transform="translate(119.102474, 125.386478) scale(1, -1) translate(-119.102474, -125.386478) " points="86.0150376 68.9565217 152.189911 95.4444415 152.189911 181.664419 119.058163 115.521704 86.0150376 181.816435"></polygon>
+                <polygon id="Triangle-177" fill="#AACBD3" transform="translate(58.887218, 122.327167) scale(1, -1) translate(-58.887218, -122.327167) " points="41.0225564 75.2600723 76.7518797 63.6521739 76.7518797 181.002161 41.0225564 181.002161"></polygon>
+                <polygon id="Triangle-177" fill="#DADADA" transform="translate(168.716847, 99.338149) scale(1, -1) translate(-168.716847, -99.338149) " points="161.443609 54.2304104 175.990086 83.618728 175.990085 144.445887 161.527771 144.445887"></polygon>
+                <polygon id="Triangle-177" fill="#BCDEEF" transform="translate(109.955165, 57.257425) scale(1, -1) translate(-109.955165, -57.257425) " points="118.708276 0 160.361458 82.3543991 59.5488722 114.514851"></polygon>
+                <polygon id="Rectangle-121" fill="#DADADA" points="59.820284 0 175.988286 54.2389336 1.32330827 54.2389324"></polygon>
+                <polygon id="Triangle-177" fill="#AACBD3" transform="translate(15.681798, 113.439652) scale(1, -1) translate(-15.681798, -113.439652) " points="0 106.22405 31.3635958 63.6521739 31.3635967 163.227131 0 163.227129"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
