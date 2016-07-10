@@ -1,1 +1,0 @@
-$(window).load(function(){var t={init:function(){var t=500,n=3e3,i=1e3,e=$(".rotating-item").length,a=0;$(".rotating-item").eq(a).fadeIn(t);setInterval(function(){$(".rotating-item").eq(a).fadeOut(i),a==e-1?a=0:a++,$(".rotating-item").eq(a).fadeIn(i)},n)}};t.init()});
