@@ -3,6 +3,10 @@ data.projects.each do |project|
   proxy "/projects/#{project[0].split('-')[1]}.html", "/projects/template.html", :locals => {project: project[1], short_name: project[0].split('-')[1]}, :ignore => true
 end
 
+data.digital.each do |project|
+  proxy "/projects/#{project[0].split('-')[1]}.html", "/projects/template.html", :locals => {project: project[1], short_name: project[0].split('-')[1]}, :ignore => true
+end
+
 data.essays.each do |essay|
   proxy "/essays/#{essay[0].split('-')[1]}.html", "/essays/template.html", :locals => {essay: essay[1], short_name: essay[0].split('-')[1]}, :ignore => true
 end
