@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="182px" viewBox="0 0 176 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>troylogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="troylogo">
+            <rect id="Rectangle" fill="#505050" x="0" y="0" width="176" height="182"></rect>
+            <polygon id="Rectangle" fill="#FFFFFF" points="5 51.0199966 167.5 51.0195372 165 122 163.5 137.913043 14.5 137.913043 0 119 0 63.6399994 0 54.1999969"></polygon>
+            <polygon id="Rectangle-121" fill="#BCDEEF" fill-rule="nonzero" transform="translate(88.971648, 159.789975) rotate(180.000000) translate(-88.971648, -159.789975) " points="16.2250289 175.227019 25.6358787 164.228208 91.5570223 137.913043 101.001752 138.622762 136.814923 150.104236 146.132539 156.427121 164.710213 181.666907 13.233083 181.666906"></polygon>
+            <polygon id="Triangle-177" fill="#AACBD3" fill-rule="nonzero" transform="translate(119.102474, 125.386478) scale(-1, 1) rotate(-180.000000) translate(-119.102474, -125.386478) " points="86.0150376 68.956521 152.189911 95.4444408 152.189911 181.664418 119.058163 115.521703 86.0150376 181.816434"></polygon>
+            <polygon id="Triangle-177" fill="#AACBD3" fill-rule="nonzero" transform="translate(58.887218, 122.327167) scale(-1, 1) rotate(-180.000000) translate(-58.887218, -122.327167) " points="41.0225564 75.2600714 76.7518797 63.652173 76.7518797 181.00216 41.0225564 181.00216"></polygon>
+            <polygon id="Triangle-177" fill="#BCDEEF" fill-rule="nonzero" transform="translate(109.955165, 57.257425) scale(-1, 1) rotate(-180.000000) translate(-109.955165, -57.257425) " points="118.708276 -9.99999997e-07 160.361458 82.3543981 59.5488722 114.51485"></polygon>
+            <polygon id="Combined-Shape" fill="#DADADA" fill-rule="nonzero" points="175.970031 54.2304104 175.990086 115.05757 161.443609 144.445887 161.527763 54.2389335 0 54.2389335 59.820284 0"></polygon>
+            <polygon id="Triangle-177" fill="#AACBD3" fill-rule="nonzero" transform="translate(15.681798, 113.439652) scale(-1, 1) rotate(-180.000000) translate(-15.681798, -113.439652) " points="0 106.224049 31.3635958 63.652173 31.3635967 163.22713 0 163.227128"></polygon>
+        </g>
+    </g>
+</svg>
