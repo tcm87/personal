@@ -1,0 +1,147 @@
+.works-page {
+  padding-top: rem-calc(154);
+  @media #{$small-only}{
+    padding-top: rem-calc(120);
+  }
+
+
+
+  .works-list {
+    @include grid-column($columns:9.5, $offset:2.5);
+    padding-bottom: rem-calc(40);
+    display: flex;
+    flex-wrap: wrap;
+    float: none;
+    @media #{$medium-only}{
+      @include grid-column($columns:11.9, $offset:.1);
+    }
+    @media #{$small-only}{
+      @include grid-column($columns:10.6, $offset:1.4);
+      padding-top: rem-calc(30);
+      padding-bottom: rem-calc(25);
+    }
+    @media #{$xlarge-up}{
+      @include grid-column($columns:6.4, $offset:3.5);
+    }
+
+    .box {
+      height: rem-calc(354);
+      width: rem-calc(354);
+      background-color: $light-gray;
+      border-radius: 3px;
+      margin-right: rem-calc(25);
+      margin-bottom: rem-calc(25);
+      @media #{$medium-only} {
+       
+      }
+      @media #{$small-only} {
+        width: rem-calc(280);
+        height: rem-calc(270);
+      }
+    }
+
+    .container {
+      height: rem-calc(266);
+      overflow: hidden;
+      @media #{$medium-only} {
+        width: 100%;
+      }
+      @media #{$small-only} {
+        height: rem-calc(180);
+      }
+    }
+
+    .works-title {
+      @include grid-column($columns:12);
+      font-family: $font-family-serif;
+      font-weight: 600;
+      padding-bottom: rem-calc(14);
+      @media #{$small-only} {
+        @include grid-column($columns:6, $offset:2.5);
+        padding-bottom: rem-calc(10);
+        font-size: rem-calc(24);
+        float: left;
+      }
+    }
+
+    .link {
+      width: 100%;
+      height: 100%;
+      display: block;
+      overflow:hidden;
+      text-indent:100%;
+      white-space:nowrap;
+    }
+
+    .works-image {
+      width: rem-calc(354);
+      height: rem-calc(266);
+      background-size: cover;
+      background-position: 50% 60%;
+      opacity: .9;
+      transition: all .2s ease-in-out;
+      &:hover {transform: scale(1.06)} 
+      &:hover {opacity:(1.0);}
+      @media #{$medium-only}{
+
+      }
+      @media #{$small-only}{
+        background-position: 50% 70%;
+        width: rem-calc(280);
+        height: rem-calc(180);
+        opacity: 1.0;
+      }
+    }
+
+    .works-name {
+      margin-top: rem-calc(26);
+      font-size: rem-calc(17);
+      font-family: $font-family-serif;
+      font-weight: 400;
+      color: black;
+      text-align: center;
+      letter-spacing: .5px;
+      @media #{$small-only}{
+        margin-top: rem-calc(22);
+        font-size: rem-calc(15);
+      }
+    }
+
+    .strong {
+      font-weight: 300;
+    }
+
+    .tags {
+      font-family: $font-family-serif;
+      font-weight: 300;
+      font-size: rem-calc(12);
+      text-transform: uppercase;
+      color: $mid-gray;
+      letter-spacing: 1.5px;
+      text-align: center;
+      padding-top: 6%;
+      margin-bottom: 0;
+      @media #{$small-only}{
+        font-size: rem-calc(9);
+        padding-top: 7%;
+      }
+    }
+
+    .bigtags {
+      font-family: $font-family-serif;
+      font-size: rem-calc(12);
+      text-transform: uppercase;
+      color: $mid-gray;
+      letter-spacing: 1.5px;
+      text-align: center;
+      padding-top: 2.8%;
+      margin-bottom: 0;
+      @media #{$small-only}{
+        font-size: rem-calc(9);
+        padding-top: 5%;
+      }
+    }
+
+  }
+
+}

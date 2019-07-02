@@ -1,1 +1,0 @@
-$(document).on("scroll",function(){$(document).scrollTop()>100?$("header").addClass("shrink"):$("header").removeClass("shrink")});

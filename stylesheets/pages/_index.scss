@@ -1,0 +1,64 @@
+.index {
+
+
+	.welcome {
+		@include grid-column($columns:7, $offset:2.5);
+		padding-top: rem-calc(154);
+		padding-bottom: rem-calc(50);
+
+		@media #{$xlarge-up}{
+			@include grid-column($columns:5, $offset:3.5);
+		}
+
+		@media #{$medium-only}{
+			@include grid-column($columns:9.5, $offset:1.5);
+		}
+
+		@media #{$small-only}{
+			@include grid-column($columns:11, $offset:.5);
+			padding-top: rem-calc(150);
+			padding-bottom: rem-calc(0);
+		}
+
+		& h3 {
+			@include grid-column($columns:12);
+			margin-left: rem-calc(-4);
+			padding-bottom: rem-calc(12);
+			font-family: $font-family-serif;
+			font-weight: 600;
+
+			@media #{$small-only}{
+				@include grid-column($columns:12, $offset:0);
+				padding-bottom: rem-calc(6);
+				font-size: rem-calc(24);
+				text-align: center;
+			}
+		}
+
+
+	}
+}
+
+.intro {
+	@include grid-column($columns:12);
+
+	& p {
+		margin-bottom: rem-calc(8);
+		@media #{$small-only}{
+			font-size: rem-calc(15);
+		}
+	}
+
+	.container {
+		@include grid-column($columns:7, $offset:2.5);
+		padding-bottom: rem-calc(50);
+
+		@media #{$medium-only}{
+			@include grid-column($columns:12, $offset:0);
+		}
+
+	}
+
+
+
+}
